@@ -25,6 +25,7 @@ public:
     ofxALSoftSource()
     
     :alSourceID( 0 )
+    ,referenceDistance( 1.0f )
     ,pitch( 1.0f )
     ,gain( 1.0f )
     ,isLooping( false )
@@ -56,19 +57,24 @@ public:
         velocity.set( value );
     };
     
+    void setReferenceDistance( const float value )
+    {
+        referenceDistance   = value;
+    };
+    
     void setPitch( const float value )
     {
-        pitch       = value;
+        pitch               = value;
     };
     
     void setGain( const float value )
     {
-        gain        = value;
+        gain                = value;
     };
     
     void setLooping( const bool value )
     {
-        isLooping   = value;
+        isLooping           = value;
     };
     
     const ofVec3f & getPosition() const
@@ -89,6 +95,11 @@ public:
     const ofVec3f & getVelocity() const
     {
         return velocity;
+    };
+    
+    const float getReferenceDistance() const
+    {
+        return pitch;
     };
     
     const float getPitch() const
@@ -162,6 +173,8 @@ public:
         alSourcef( alSourceID, AL_PITCH, pitch );
         alSourcef( alSourceID, AL_GAIN, gain );
         alSourcei( alSourceID, AL_LOOPING, isLooping ? AL_TRUE : AL_FALSE );
+        
+        alSourcef( alSourceID, AL_REFERENCE_DISTANCE, referenceDistance );
     };
     
 private:
@@ -173,6 +186,7 @@ private:
     ofVec3f     upVector;
     ofVec3f     velocity;
     
+    float       referenceDistance;
     float       pitch;
     float       gain;
     

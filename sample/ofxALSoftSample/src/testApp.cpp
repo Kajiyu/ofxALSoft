@@ -19,6 +19,8 @@ void testApp::setup()
     source.buffer( buffer );
     
     source.play();
+    
+    source.setReferenceDistance( 50.0f );
     source.setLooping( true );
     
     listener.setPosition( ofVec3f( ofGetWidth() * 0.5f, ofGetHeight() * 0.5f, 0.0f ) );

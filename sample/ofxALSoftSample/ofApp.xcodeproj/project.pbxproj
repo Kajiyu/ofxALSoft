@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		412E489617B91D1A0045FA10 /* libopenal.1.15.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 412E489217B91D1A0045FA10 /* libopenal.1.15.1.dylib */; };
+		414343AE17BA1F3F0021B14D /* libopenal.1.15.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4143438D17BA1F3F0021B14D /* libopenal.1.15.1.dylib */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
 		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -61,21 +61,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		412E488817B91D1A0045FA10 /* alsoftrc.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alsoftrc.sample; sourceTree = "<group>"; };
-		412E488B17B91D1A0045FA10 /* al.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = al.h; sourceTree = "<group>"; };
-		412E488C17B91D1A0045FA10 /* alc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alc.h; sourceTree = "<group>"; };
-		412E488D17B91D1A0045FA10 /* alext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alext.h; sourceTree = "<group>"; };
-		412E488E17B91D1A0045FA10 /* efx-creative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "efx-creative.h"; sourceTree = "<group>"; };
-		412E488F17B91D1A0045FA10 /* efx-presets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "efx-presets.h"; sourceTree = "<group>"; };
-		412E489017B91D1A0045FA10 /* efx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = efx.h; sourceTree = "<group>"; };
-		412E489217B91D1A0045FA10 /* libopenal.1.15.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopenal.1.15.1.dylib; sourceTree = "<group>"; };
-		412E489317B91D1A0045FA10 /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
-		412E489717B91EBD0045FA10 /* ofxALSoftContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxALSoftContext.h; sourceTree = "<group>"; };
-		412E489817B91EC70045FA10 /* ofxALSoftListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxALSoftListener.h; sourceTree = "<group>"; };
-		412E489917B91ED40045FA10 /* ofxALSoftSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxALSoftSource.h; sourceTree = "<group>"; };
-		412E489A17B92BE20045FA10 /* ofxALSoft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxALSoft.h; sourceTree = "<group>"; };
-		412E489B17B9329C0045FA10 /* ofxALSoftBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxALSoftBuffer.h; sourceTree = "<group>"; };
-		412E489C17B9383B0045FA10 /* ofxALSoftRAWLoader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ofxALSoftRAWLoader.h; sourceTree = "<group>"; };
+		4143438217BA1F3F0021B14D /* alsoftrc.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alsoftrc.sample; sourceTree = "<group>"; };
+		4143438517BA1F3F0021B14D /* al.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = al.h; sourceTree = "<group>"; };
+		4143438617BA1F3F0021B14D /* alc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alc.h; sourceTree = "<group>"; };
+		4143438717BA1F3F0021B14D /* alext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alext.h; sourceTree = "<group>"; };
+		4143438817BA1F3F0021B14D /* efx-creative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "efx-creative.h"; sourceTree = "<group>"; };
+		4143438917BA1F3F0021B14D /* efx-presets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "efx-presets.h"; sourceTree = "<group>"; };
+		4143438A17BA1F3F0021B14D /* efx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = efx.h; sourceTree = "<group>"; };
+		4143438B17BA1F3F0021B14D /* Install.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Install.txt; sourceTree = "<group>"; };
+		4143438D17BA1F3F0021B14D /* libopenal.1.15.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libopenal.1.15.1.dylib; sourceTree = "<group>"; };
+		4143438E17BA1F3F0021B14D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		414343A817BA1F3F0021B14D /* ofxALSoft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxALSoft.h; sourceTree = "<group>"; };
+		414343A917BA1F3F0021B14D /* ofxALSoftBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxALSoftBuffer.h; sourceTree = "<group>"; };
+		414343AA17BA1F3F0021B14D /* ofxALSoftContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxALSoftContext.h; sourceTree = "<group>"; };
+		414343AB17BA1F3F0021B14D /* ofxALSoftListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxALSoftListener.h; sourceTree = "<group>"; };
+		414343AC17BA1F3F0021B14D /* ofxALSoftRAWLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxALSoftRAWLoader.h; sourceTree = "<group>"; };
+		414343AD17BA1F3F0021B14D /* ofxALSoftSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxALSoftSource.h; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -124,88 +125,81 @@
 				E4C2424810CC5A17004149E2 /* Cocoa.framework in Frameworks */,
 				E4C2424910CC5A17004149E2 /* IOKit.framework in Frameworks */,
 				E7E077E515D3B63C0020DFD4 /* CoreVideo.framework in Frameworks */,
-				412E489617B91D1A0045FA10 /* libopenal.1.15.1.dylib in Frameworks */,
+				414343AE17BA1F3F0021B14D /* libopenal.1.15.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		412E488517B91D1A0045FA10 /* ofxALSoft */ = {
+		4143437F17BA1F3F0021B14D /* ofxALSoft */ = {
 			isa = PBXGroup;
 			children = (
-				412E488617B91D1A0045FA10 /* config */,
-				412E488917B91D1A0045FA10 /* include */,
-				412E489117B91D1A0045FA10 /* lib */,
-				412E489317B91D1A0045FA10 /* README.rtf */,
-				412E489417B91D1A0045FA10 /* sample */,
-				412E489517B91D1A0045FA10 /* src */,
+				4143438017BA1F3F0021B14D /* config */,
+				4143438317BA1F3F0021B14D /* include */,
+				4143438B17BA1F3F0021B14D /* Install.txt */,
+				4143438C17BA1F3F0021B14D /* lib */,
+				4143438E17BA1F3F0021B14D /* README.md */,
+				414343A717BA1F3F0021B14D /* src */,
 			);
 			name = ofxALSoft;
-			path = ../../../addons/ofxALSoft;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		412E488617B91D1A0045FA10 /* config */ = {
+		4143438017BA1F3F0021B14D /* config */ = {
 			isa = PBXGroup;
 			children = (
-				412E488717B91D1A0045FA10 /* openal */,
+				4143438117BA1F3F0021B14D /* openal */,
 			);
 			path = config;
 			sourceTree = "<group>";
 		};
-		412E488717B91D1A0045FA10 /* openal */ = {
+		4143438117BA1F3F0021B14D /* openal */ = {
 			isa = PBXGroup;
 			children = (
-				412E488817B91D1A0045FA10 /* alsoftrc.sample */,
+				4143438217BA1F3F0021B14D /* alsoftrc.sample */,
 			);
 			path = openal;
 			sourceTree = "<group>";
 		};
-		412E488917B91D1A0045FA10 /* include */ = {
+		4143438317BA1F3F0021B14D /* include */ = {
 			isa = PBXGroup;
 			children = (
-				412E488A17B91D1A0045FA10 /* AL */,
+				4143438417BA1F3F0021B14D /* AL */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		412E488A17B91D1A0045FA10 /* AL */ = {
+		4143438417BA1F3F0021B14D /* AL */ = {
 			isa = PBXGroup;
 			children = (
-				412E488B17B91D1A0045FA10 /* al.h */,
-				412E488C17B91D1A0045FA10 /* alc.h */,
-				412E488D17B91D1A0045FA10 /* alext.h */,
-				412E488E17B91D1A0045FA10 /* efx-creative.h */,
-				412E488F17B91D1A0045FA10 /* efx-presets.h */,
-				412E489017B91D1A0045FA10 /* efx.h */,
+				4143438517BA1F3F0021B14D /* al.h */,
+				4143438617BA1F3F0021B14D /* alc.h */,
+				4143438717BA1F3F0021B14D /* alext.h */,
+				4143438817BA1F3F0021B14D /* efx-creative.h */,
+				4143438917BA1F3F0021B14D /* efx-presets.h */,
+				4143438A17BA1F3F0021B14D /* efx.h */,
 			);
 			path = AL;
 			sourceTree = "<group>";
 		};
-		412E489117B91D1A0045FA10 /* lib */ = {
+		4143438C17BA1F3F0021B14D /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				412E489217B91D1A0045FA10 /* libopenal.1.15.1.dylib */,
+				4143438D17BA1F3F0021B14D /* libopenal.1.15.1.dylib */,
 			);
 			path = lib;
 			sourceTree = "<group>";
 		};
-		412E489417B91D1A0045FA10 /* sample */ = {
+		414343A717BA1F3F0021B14D /* src */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			path = sample;
-			sourceTree = "<group>";
-		};
-		412E489517B91D1A0045FA10 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				412E489717B91EBD0045FA10 /* ofxALSoftContext.h */,
-				412E489817B91EC70045FA10 /* ofxALSoftListener.h */,
-				412E489917B91ED40045FA10 /* ofxALSoftSource.h */,
-				412E489A17B92BE20045FA10 /* ofxALSoft.h */,
-				412E489B17B9329C0045FA10 /* ofxALSoftBuffer.h */,
-				412E489C17B9383B0045FA10 /* ofxALSoftRAWLoader.h */,
+				414343A817BA1F3F0021B14D /* ofxALSoft.h */,
+				414343A917BA1F3F0021B14D /* ofxALSoftBuffer.h */,
+				414343AA17BA1F3F0021B14D /* ofxALSoftContext.h */,
+				414343AB17BA1F3F0021B14D /* ofxALSoftListener.h */,
+				414343AC17BA1F3F0021B14D /* ofxALSoftRAWLoader.h */,
+				414343AD17BA1F3F0021B14D /* ofxALSoftSource.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -213,7 +207,7 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
-				412E488517B91D1A0045FA10 /* ofxALSoft */,
+				4143437F17BA1F3F0021B14D /* ofxALSoft */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -399,7 +393,6 @@
 /* Begin XCBuildConfiguration section */
 		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH)";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
@@ -466,7 +459,6 @@
 		};
 		E4B69B4F0A3A1720003C02F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH)";
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
@@ -649,8 +641,10 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_52)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../addons/ofxALSoft/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../lib\"";
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
 				WRAPPER_EXTENSION = app;
@@ -773,8 +767,10 @@
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_50)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_51)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../addons/ofxALSoft/lib\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../lib\"";
 				PREBINDING = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
